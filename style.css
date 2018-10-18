@@ -9,19 +9,37 @@ body {
     margin-top: 6%;
     border-radius: 30px;
 }
-#textbox text{
-    margin-left: 35px;
-    color: #666666;
-}
 #textbox input{
     margin-bottom: 10px;
     font-size: 35px;
-    border-radius: 20px;
     color: #696969;
+}
+#textbox input[name=letters]{
+    border:0;
+    margin-left: 35px;
+    background-color: none;
+    min-width: 340px;
+    width: 750px;
+}
+#textbox #subbox input{
+    font-size: 35px;
+    border-radius: 20px;
+    margin-left: 35px;
+}
+#textbox #subbox input:active{
+    background-color:#5086ff;
+    color:#d5d1d1;
+    opacity: 10%;
+}
+#subbox{
+    display: inline;
 }
 h1 {
     text-align: center;
     font-size: 90px;
     margin-top: 10%;
     color: #CDDF16;
+}
+#textbox form{
+    display:inline-block;
 }

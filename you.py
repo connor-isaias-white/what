@@ -2,7 +2,7 @@ def wordsin():
     word = input("What word are you looking at? ").lower()
     for i in f:
         if len(i) >= 3 and i in word and i != word:
-            print("You can't spell "+word+" without "+i)
+            print("You can't spell " + word + " without " + i)
         else:
             pass
 

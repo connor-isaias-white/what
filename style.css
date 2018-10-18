@@ -25,7 +25,7 @@ body {
     color: #696969;
     font-size: 35px;
     border-radius: 20px;
-    margin-left: 35px;
+    margin-left: 5px;
 }
 #textbox #subbox button:active{
     background-color:#5086ff;

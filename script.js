@@ -9,7 +9,7 @@ function words(file) {
             {
                 var allText = rawFile.responseText.split("\n");
                 var x = document.getElementById('letters').value;
-                x = x.replace(" ", '').replace(',', '')
+                x = x.replace(/ /gi, '').replace(/,/gi, '')
                 var answers = [];
                 var text = ''
                 for(i in allText){
